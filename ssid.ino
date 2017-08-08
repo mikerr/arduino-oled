@@ -56,8 +56,10 @@ void listNetworks() {
     Serial.println("Couldn't get a wifi connection");
     while (true);
   }
+
    display.clear();
-     
+   
+   
   // print the list of networks seen:
   Serial.print("number of available networks:");
   Serial.println(numSsid);
@@ -73,9 +75,10 @@ void listNetworks() {
     Serial.print(WiFi.RSSI(thisNet));
     Serial.print(" dBm");
 
+
    Serial.println("");
    display.setTextAlignment(TEXT_ALIGN_LEFT);
-   display.drawStringMaxWidth(0,thisNet * fit, 128, WiFi.SSID(thisNet));
+   display.drawStringMaxWidth(0,thisNet * fit, 128, WiFi.SSID(thisNet) + String ((WiFi.encryptionType(thisNet) == WIFI_AUTH_OPEN)?"*":" "));
    display.setTextAlignment(TEXT_ALIGN_RIGHT);
    display.drawString(128,thisNet * fit, String( WiFi.RSSI(thisNet)) + " dB");
    
