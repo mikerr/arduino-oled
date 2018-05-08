@@ -4,7 +4,7 @@ Arduino / esp8266 code using  an 128x64 0.96" OLED module
 
 starfield.ino - simple animated starfield
 
-![Imgur](https://i.imgur.com/nZtLorem.gif)
+![Imgur](https://i.imgur.com/nZtLore.gif)
 
 ssid.ino - list SSIDs and strength
 
