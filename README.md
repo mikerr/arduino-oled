@@ -21,3 +21,4 @@ More documentation at
  https://github.com/espressif/arduino-esp32
  http://www.espressif.com/en/products/hardware/esp32/resources
  https://github.com/squix78/esp8266-oled-ssd1306/tree/master/examples/SSD1306SimpleDemo
+ https://github.com/ThingPulse/esp8266-oled-ssd1306
