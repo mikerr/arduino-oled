@@ -22,3 +22,5 @@ More documentation at
  http://www.espressif.com/en/products/hardware/esp32/resources
  https://github.com/squix78/esp8266-oled-ssd1306/tree/master/examples/SSD1306SimpleDemo
  https://github.com/ThingPulse/esp8266-oled-ssd1306
+
+In Arduino library manager, install "ESP8266 and ESP32 Oled Driver for SSD1306 display"
